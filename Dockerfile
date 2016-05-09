@@ -7,9 +7,9 @@ RUN apt-get -y install lib32stdc++6 lib32z1
 
 # Install Android
 RUN \
-  wget http://dl.google.com/android/android-sdk_r24.0.2-linux.tgz && \
-  tar -xzvf android-sdk_r24.0.2-linux.tgz && \
-  rm android-sdk_r24.0.2-linux.tgz && \
+  wget http://dl.google.com/android/android-sdk_r24.4.1-linux.tgz && \
+  tar -xzvf android-sdk_r24.4.1-linux.tgz && \
+  rm android-sdk_r24.4.1-linux.tgz && \
   mv android-sdk-linux /usr/local/android-sdk
 
 # Install Android Tools
