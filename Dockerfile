@@ -17,7 +17,7 @@ RUN \
   echo y | /usr/local/android-sdk/tools/android update sdk --filter platform-tools --no-ui --force -a && \
   echo y | /usr/local/android-sdk/tools/android update sdk --filter build-tools-21.1.2 --no-ui --force -a && \
   echo y | /usr/local/android-sdk/tools/android update sdk --filter build-tools-22.0.1 --no-ui --force -a && \
-  echo y | /usr/local/android-sdk/tools/android update sdk --filter build-tools-23.0.2 --no-ui --force -a
+  echo y | /usr/local/android-sdk/tools/android update sdk --filter build-tools-23.0.3 --no-ui --force -a
 
 # Setup ANDROID_HOME
 ENV ANDROID_HOME /usr/local/android-sdk
